@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>A2Z Electronics</title>
+
+        <script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+
+        <script>
+
+        setKey('{{ApiKey}}','{{Name}}');
+
+        </script>
+
+    </head>
+
+    <body bgcolor="#FF7F50" text="#000000">
+        
+      
+
+        <center>
+        <h1 style="color:black;font-size:100px">Operate your LED BULB</h1>
+        
+        <button style="font-size:30px;height:100px;width:125px" onclick="digitalWrite(0, 'HIGH');">ON</button>
+
+        <button style="font-size:30px;height:100px;width:125px" onclick="digitalWrite(0, 'LOW');">OFF</button>
+
+        </center>
+
+    </body>
+
+</html>
